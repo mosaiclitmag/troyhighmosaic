@@ -1,0 +1,173 @@
+html { /* parameters for the entire page. */
+    width: 1024px;
+    height: 768px;
+    background-color: lightyellow;
+    color: #210000;
+    font-family: 'Georgia';
+    font-size: 1.2rem;
+    margin: -10px;
+    overflow-x: hidden;
+    text-shadow: #ff9966 1px 0 1px;
+  } /* the selection colors when you leftclick and drag, moz: is so it works on firefox browsers. */
+  ::selection {
+    background: #ff9966;
+    color:#190d07;
+  }
+  ::-moz-selection {
+    background: #ff9967;
+    color: #190d07;
+  }
+  a:link { /*link colors. */
+    color: rgb(23, 13, 67);
+    background-color: transparent;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    padding:2px;
+  }
+  
+  a:visited {
+    color: rgb(45, 19, 0);
+    background-color: transparent;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: rgb(44, 22, 240);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(18, 18, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  h1 { /* headers. */
+  background: rgb(72,0,0);
+  background: linear-gradient(180deg, rgba(72,0,0,1) 0%, rgba(33,0,0,1) 100%);
+  color: #f6e9da; 
+  }
+  mark { /* highlights. */
+    color:#190d07;
+    background-color: #8b0909;
+  } /* the left main section. css gradients.com will get you easy to make gradients. */
+  .left {
+  width: 600px;
+  height: 100%;
+  position: fixed;
+  border: 40px outset #210000;
+  border-right: 3px outset #210000;
+  border-radius:5px;
+  border-top: 0;
+  margin-top: 0;
+  background: rgb(255,254,245);
+  background: linear-gradient(180deg, rgba(255,254,245,1) 0%, rgba(255,253,235,1) 29%, rgba(255,224,208,1) 100%);background: rgb(255,250,207);
+  background: linear-gradient(180deg, rgba(255,250,207,1) 0%, rgb(247, 226, 157) 29%, rgba(233,161,125,1) 100%);
+  background-clip:padding-box;
+  padding:10px;
+  } 
+  .logo { /* the logo */
+    position: relative;
+    top: -100px;
+    left: -10px;
+    width: 620px;
+    background: rgb(72,0,0);
+    background: linear-gradient(180deg, rgba(72,0,0,1) 0%, rgba(33,0,0,1) 100%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    } 
+    .desc { /*the text */
+    top: -50px;
+    position:relative;
+  }
+  .footer { /* mosaic pieces */
+    position: relative;
+    left: -10px;
+    width: 620px;
+    background: rgb(72,0,0);
+    background: linear-gradient(180deg, rgba(72,0,0,1) 0%, rgba(33,0,0,1) 100%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .right { /* the right main section. */
+  width: 750px;
+  height: 560px;
+  left:700px;
+  position: absolute;
+  border: 3px inset #210000;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  background: rgb(255,254,245);
+  background: linear-gradient(180deg, rgba(255,254,245,1) 0%, rgba(255,251,215,1) 29%, rgba(255,224,208,1) 100%);
+  background-clip:padding-box;
+  padding-top: 0px;
+  }
+  .butt { /* the button styling. */
+    width: 150px;
+    height: 50px;
+    background: rgb(255,182,149);
+    background: linear-gradient(180deg, rgba(255,182,149,1) 0%, rgba(212,89,91,1) 100%);
+    border: 2px #210000 outset;
+    border-radius: 10px;
+    color:#190d07;
+    font-family: 'Georgia';
+    padding: 5px;
+  }
+  .butt:hover { /* hover effect of button. */
+    background: rgb(243, 130, 141);
+    background: linear-gradient(180deg, rgba(243,130,141,1) 0%, rgb(182, 74, 115) 100%);
+  } /* the navigation section at the bottom right. */
+  .nav {
+    width: 750px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    border-end-end-radius: 50px;
+    border-start-start-radius: 50px;
+    border-top: 0px;
+    background: rgb(72,0,0);
+    background: linear-gradient(180deg, rgba(72,0,0,1) 0%, rgba(33,0,0,1) 100%);
+    position:absolute;
+    left: -23px;
+    bottom: -138px;
+  }
+.date { /* the coming out date. */
+  width: 731px;
+  height: 100px;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  position:absolute;
+  left: -378px;
+  bottom: -215px;
+  padding: 0.5rem;
+}
+.orange{ /* the orange color behind the mission plan. */
+  width: 375px;
+  height: 200px;
+  background-color: #FFb695;
+  border-radius: 2px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right:#210000 2px solid;
+  position:absolute;
+  left:0px;
+  padding-bottom: 5rem;
+  
+}
+.red{ /* the red color behind the what is a literary magazine. */
+  width: 375px;
+  height: 200px;
+  background-color: #D4595B;
+  border-radius: 2px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-left:#210000 2px solid;
+  width: 375px;
+  position:absolute;
+  right:-1.5px;
+}
