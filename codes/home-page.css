@@ -76,8 +76,6 @@ html { /* parameters for the entire page. */
     width: 620px;
     background: rgb(72,0,0);
     background: linear-gradient(180deg, rgba(72,0,0,1) 0%, rgba(33,0,0,1) 100%);
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
     } 
     .desc { /*the text */
     top: -50px;
