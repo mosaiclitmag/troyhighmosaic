@@ -222,3 +222,31 @@ function showDiv() { /* please dont touch unless you know what you're doing. Thi
       showDiv16()
     }
   }
+  function showDiv17() { 
+    document.querySelector(".intro17").style.display = "block"; /*17*/
+  }
+  function closeDiv17() {
+    document.querySelector(".intro17").style.display = "none";
+  }
+  
+  function showOrHide17() {
+    if (document.querySelector(".intro17").style.display === "block") {
+      closeDiv17()
+    } else {
+      showDiv17()
+    }
+  }
+  function showDiv18() { 
+    document.querySelector(".intro18").style.display = "block"; /*18*/
+  }
+  function closeDiv18() {
+    document.querySelector(".intro18").style.display = "none";
+  }
+  
+  function showOrHide18() {
+    if (document.querySelector(".intro18").style.display === "block") {
+      closeDiv18()
+    } else {
+      showDiv18()
+    }
+  }
