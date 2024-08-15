@@ -18,6 +18,7 @@ html { /* parameters for the entire page. */
     }
     100% {
         opacity: 1;
+        }
   } /* the selection colors when you leftclick and drag, moz: is so it works on firefox browsers. */
   ::selection {
     background: #ff9966;
