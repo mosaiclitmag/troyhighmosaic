@@ -8,6 +8,16 @@ html { /* parameters for the entire page. */
     margin: -10px;
     overflow-x: hidden;
     text-shadow: #ff9966 1px 0 1px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+} /*fade in animation */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
   } /* the selection colors when you leftclick and drag, moz: is so it works on firefox browsers. */
   ::selection {
     background: #ff9966;
